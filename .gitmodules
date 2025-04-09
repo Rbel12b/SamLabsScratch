@@ -3,13 +3,13 @@
     url = https://github.com/rbel12b/scratch-vm.git
 
 [submodule "scratch-gui"]
-    path = scratch-vm
+    path = scratch-gui
     url = https://github.com/rbel12b/scratch-gui.git
 
 [submodule "scratch-samlabs"]
-    path = scratch-vm
+    path = scratch-samlabs
     url = https://github.com/rbel12b/scratch-samlabs.git
     
 [submodule "Scratch"]
-    path = scratch-vm
+    path = Scratch
     url = https://github.com/rbel12b/Scratch.git
