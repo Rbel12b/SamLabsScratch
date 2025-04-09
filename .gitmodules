@@ -1,0 +1,15 @@
+[submodule "scratch-vm"]
+    path = scratch-vm
+    url = https://github.com/rbel12b/scratch-vm.git
+
+[submodule "scratch-gui"]
+    path = scratch-vm
+    url = https://github.com/rbel12b/scratch-gui.git
+
+[submodule "scratch-samlabs"]
+    path = scratch-vm
+    url = https://github.com/rbel12b/scratch-samlabs.git
+    
+[submodule "Scratch"]
+    path = scratch-vm
+    url = https://github.com/rbel12b/Scratch.git
