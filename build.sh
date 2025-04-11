@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cd ./scratch-samlabs && npm run build
 cd ..
