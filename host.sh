@@ -1,3 +1,3 @@
 #!/bin/bash
 
-http-server -c-1 --cors --mime 'text/javascript:.mjs'
+python3 -m http.server -d scratch-gui/build
