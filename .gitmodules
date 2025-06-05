@@ -13,3 +13,7 @@
 [submodule "Scratch"]
     path = Scratch
     url = https://github.com/rbel12b/Scratch.git
+
+[submodule "scratch-huskylens"]
+	path = scratch-huskylens
+	url = https://github.com/rbel12b/scratch-huskylens.git

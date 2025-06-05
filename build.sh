@@ -4,12 +4,15 @@ git clone https://github.com/rbel12b/tm2scratch scratch-gui/tm2scratch --depth=1
 
 cd ./scratch-samlabs && npm run build
 
+cd ../scratch-huskylens && npm run build
+
 cd ../scratch-gui 
 sh ./tm2scratch/install.sh
 npm run build
 cd ..
 
 cp -r ./scratch-samlabs/dist ./scratch-gui/build
+cp -r ./scratch-huskylens/dist ./scratch-gui/build
 
 cd scratch-gui
 rm -rf node_modules/scratch-vm/src/extensions/scratch3_tm2scratch node_modules/scratch-vm/src/extension-support/extension-manager.js
